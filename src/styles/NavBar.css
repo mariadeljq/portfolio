@@ -1,0 +1,28 @@
+#navBar {
+  position: fixed;
+  top: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-inline: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--background-color);
+
+  /* Ensure it stays on top of other content */
+}
+
+#navBar p {
+  padding-inline: 1rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#navBar p:hover {
+  text-decoration: underline;
+}
+
+#navBar p.active {
+  color: var(--main-color);
+  /* Change this to the color you want for the active section */
+}

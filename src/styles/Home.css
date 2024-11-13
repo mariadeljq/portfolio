@@ -1,0 +1,30 @@
+#home {
+  width: 70%;
+  margin: 0 auto;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+#img {
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#info {
+  grid-column: 2;
+  display: table-column;
+  align-self: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.buttons button {
+  margin-right: 1rem;
+}
